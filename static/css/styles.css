@@ -23,13 +23,14 @@ font-family: Montserrat-Black;
 vertical-align: revert;
 }
 .head-div {
-position: absolute;
-padding: 100px 0 150px;
+padding: 50px 0 150px;
 text-align: centre
 }
+
 .head-p {
-margin: 5% 15%;
+padding: 7% 15%;
 line-height: 1.5;
+font-size: 20px;
 }
 .masthead {
   height: 100vh;
@@ -49,18 +50,20 @@ font-family: Montserrat-Black;
 
 .my-pic {
 width: 15%;
+padding-top: 15px;
 }
 #about {
 text-align: center;
 font-family: Montserrat-Black;
 }
 .about-div {
-padding: 100px 0 100px;
+padding: 100px 0 100px;w
 }
 .about-p {
 color: #8f8f8f;
-margin: 5% 15%;
+padding: 7%, 15%;
 line-height: 1.5;
+font-size: 15px;
 }
 #footer {
 text-align: center;
