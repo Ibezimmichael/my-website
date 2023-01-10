@@ -25,9 +25,11 @@ vertical-align: revert;
 .head-div {
 position: absolute;
 padding: 100px 0 150px;
+text-align: centre
 }
 .head-p {
 margin: 5% 15%;
+line-height: 1.5;
 }
 .masthead {
   height: 100vh;
@@ -58,6 +60,7 @@ padding: 100px 0 100px;
 .about-p {
 color: #8f8f8f;
 margin: 5% 15%;
+line-height: 1.5;
 }
 #footer {
 text-align: center;
