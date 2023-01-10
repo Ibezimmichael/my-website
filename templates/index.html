@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi-Dev</title>
+
+    <link rel="icon" href="{{url_for('static', filename='img/favicon.ico')}}">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link href="{{url_for('static', filename='css/styles.css')}}" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+<body>
+<!--navigation section-->
+
+    <header>
+        <nav class="navbar navbar-expand-md bg-light fixed-top" id="navbar">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="{{url_for('home')}}"><img class="favicon" src="{{url_for('static', filename='img/favicon.ico')}}">i-Dev</a>
+            <button class="navbar-toggler" id="nav-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="{{url_for('home')}}">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Projects
+                  </a>
+                  <ul class="dropdown-menu" id="dropdown">
+                    <li><a class="dropdown-item" href="https://michaels-blog-u.onrender.com/">Blog</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <div class="bg-image masthead name-div" >
+      <div class="head-div">
+        <img src="{{url_for('static', filename='img/mike2-new.png')}}" class="my-pic">
+        <h1 class="h1-1" >
+            Michael Ibezim
+        </h1>
+        <p class="head-p">
+            I am a python developer from lagos, Nigeria. I enjoy making web projects for small businesses to large
+            companies with very complicated structures and big databases.
+        </p>
+      </div>
+    </div>
+
+
+<!--    name section-->
+    <section id="about">
+      <div class="about-div">
+        <h1>
+            About
+        </h1>
+        <p class="about-p">
+            I am one of the best in this field, and it's all thanks to the incredible relationships I formed with my clients. I invested in developing a personal connection with each and every one of my customers, by providing quality service and being available to you 24/7. Cant wait to here from you
+        </p>
+      </div>
+
+
+    </section>
+<!--contact section-->
+    <footer id="footer">
+        <div class="container-fluid">
+          <p><i class="bi bi-telephone"></i>+234-8024279488</p>
+          <a href="https://web.facebook.com/ibezim.michael.58"><i class="bi bi-facebook  footer-a"></i></a>
+          <a href="https://www.instagram.com/michael_yb"><i class="bi bi-instagram footer-a"></i></a>
+          <a href="https://twitter.com/ibezim4"><i class="bi bi-twitter footer-a"></i></a>
+          <a href="https://github.com/Ibezimmichael"><i class="bi bi-github footer-a"></i></a>
+          <p class="footer-p">© Copyright 2023 Michael</p>
+        </div>
+    </footer>
+
+</body>
+</html>

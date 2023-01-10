@@ -1,0 +1,1 @@
+This project is my personal website, the html page is rendered with flask and the website is built with bootstrap framework

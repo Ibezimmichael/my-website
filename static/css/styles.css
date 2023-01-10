@@ -1,0 +1,78 @@
+/*body*/
+body {
+text-align: center;
+}
+a:hover {
+    color: #fff;
+}
+/* navigation */
+#navbar {
+padding: 1px;
+}
+#nav-button {
+border: none;
+font-family: Montserrat-Black;
+}
+
+
+ #dropdown{
+    position: absolute;
+}
+
+.favicon {
+vertical-align: revert;
+}
+.head-div {
+position: absolute;
+padding: 100px 0 150px;
+}
+.head-p {
+margin: 5% 15%;
+}
+.masthead {
+  height: 100vh;
+  min-height: 400px;
+  background-image: url('https://images.unsplash.com/photo-1536183922588-166604504d5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODB8fHN5c3RlbSUyMHRlY2hub2xvZ3klMjBkYXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  opacity: 0.7;
+}
+.name-div {
+text-align: center;
+color: #fff;
+font-family: Montserrat-Black;
+}
+
+.my-pic {
+width: 15%;
+}
+#about {
+text-align: center;
+font-family: Montserrat-Black;
+}
+.about-div {
+padding: 100px 0 100px;
+}
+.about-p {
+color: #8f8f8f;
+margin: 5% 15%;
+}
+#footer {
+text-align: center;
+background-color: #ECE8DD;
+padding: 20px;
+}
+.footer-a {
+font-size: 3rem;
+padding: 10px;
+color: #434242;
+}
+.footer-a:hover {
+color: #EAF6F6;
+}
+.footer-p {
+font-size: 7px;
+color: rgb(129, 108, 108);
+}
