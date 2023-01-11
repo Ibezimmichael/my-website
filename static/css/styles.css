@@ -23,12 +23,15 @@ font-family: Montserrat-Black;
 vertical-align: revert;
 }
 .head-div {
-padding: 200px 0 200px;
+padding: 100px 0 20px;
 text-align: centre
+}
+.h1-1 {
+font-size: 3rem;
 }
 
 .head-p {
-padding: 7% 15%;
+padding: 10px 40px 0 40px;
 line-height: 1.5;
 font-size: 20px;
 }
@@ -54,6 +57,7 @@ padding-top: 15px;
 #about {
 text-align: center;
 font-family: Montserrat-Black;
+padding: 50px
 }
 .about-div {
 padding: 7% 15%;
@@ -67,7 +71,7 @@ font-size: 15px;
 #footer {
 text-align: center;
 background-color: #ECE8DD;
-padding: 30px;
+padding: 10px;
 }
 .footer-a {
 font-size: 3rem;
