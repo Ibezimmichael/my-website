@@ -23,7 +23,7 @@ font-family: Montserrat-Black;
 vertical-align: revert;
 }
 .head-div {
-padding: 100px 0 0px;
+padding: 200px 0 200px;
 text-align: centre
 }
 
@@ -67,7 +67,7 @@ font-size: 15px;
 #footer {
 text-align: center;
 background-color: #ECE8DD;
-padding: 20px;
+padding: 30px;
 }
 .footer-a {
 font-size: 3rem;
